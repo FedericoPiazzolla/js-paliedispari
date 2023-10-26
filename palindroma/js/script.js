@@ -4,6 +4,11 @@ console.log(userWord, userWord.length);
 const userReverse = wordUserReverse(userWord);
 console.log(userReverse);
 
+if (userReverse == userWord) {
+  console.log("parola palindroma");
+} else {
+  console.log("parola non palindroma");
+}
 
 
 // devo prendere la parola dell utente
