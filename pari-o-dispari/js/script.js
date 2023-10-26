@@ -8,14 +8,19 @@ const computerNumber = getRndInteger(1, 5);
 console.log(computerNumber);
 
 const sum = userNumber + computerNumber;
-console.log(sum)
+console.log(sum);
 
+const result = evenOdd();
 
-// FUNZIONE PER GENERARE UN NUMErO CASUALE DA 1 A 5
+// FUNZIONE PER GENERARE UN NUMERO CASUALE DA 1 A 5
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
 
-function result(result) {
-  if 
-}
+function evenOdd() {
+  if (sum % 2 == 0) {
+    console.log("pari");
+  } else {
+    console.log("dispari");
+  }
+};
